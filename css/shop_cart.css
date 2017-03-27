@@ -1,0 +1,44 @@
+#main{width:1200px;height:auto;margin: auto;margin-bottom: 100px;}
+   #up{width: 1200px;height: 80px;border-bottom: 2px orangered solid;}
+      #up_left{float: left;}
+      #up_right{float: right;margin-right: 95px;font-size:14px ;}
+         #up_right ul li{float: left;margin-left: 10px;line-height: 80px;}
+         .cart_btn:hover{color:#f6c;cursor: pointer;}
+         .cart_del:hover{color:#f6c;cursor: pointer;}
+   #center{width: 1200px;height: 135px;outline: 1px solid gainsboro;display: none;}
+      #center_up{width:1200px;height:55px;text-align:ccenter;margin: auto;position: relative;top: 10px;line-height: 50px;color: gray;}
+      #center_up img{display: inline-block;vertical-align: middle;}
+      #backhomepage{width:1200px;height: 20px;text-align: center;margin-top: 20px;}
+   #cart_box{width: 1200px;height: auto;outline: 1px solid gainsboro;padding-bottom: 5px;}
+     #cart_cont{width: 1200px;height: auto;margin-top: 15px;margin-top: 10px;padding-top: 5px;}
+       .cart_title{width: 1080px;height: 22px;margin: auto;border-bottom: 1px solid gainsboro;border-top: 1px solid gainsboro;margin-top: 5px;}
+         .cart_title .goods_infor{float: left;text-align: center;line-height: 22px;}
+         .cart_pho img{width: 40px;height: 27px;}
+         .cart_title .title_width1{width: 90px;height: 22px;}
+         .cart_title .title_width2{width: 100px;height: 22px;}
+         .cart_title .title_width3{width: 110px;height: 22px;}
+         .cart_title .title_width4{width: 400px;height: 22px;}
+       .cart_title1{width: 1080px;height: 85px;margin: auto;border-bottom: 1px solid gainsboro;margin-top: 5px;}
+         .cart_title1 .goods_infor{float: left;text-align: center;line-height: 85px;}
+         .cart_title1 .title_width2_1{width: 90px;height: 85px;}
+         .cart_title1 .title_width2_2{width: 100px;height: 85px;}
+         .cart_title1 .title_width2_3{width: 110px;height: 85px;}
+         .cart_title1 .title_width2_4{width: 400px;height: 85px;}
+         .raduce{width:16px;height:16px;background: gainsboro;text-align: center;line-height: 15px;font-weight: bold;padding: 3px;display: inline-block;}
+          .raduce:hover{color: darkred;cursor: pointer;}
+          #nums{width: 35px;height: 18px;}
+          .add{width:16px;height:16px;background: gainsboro;text-align: center;line-height: 15px;font-weight: bold;padding: 3px;display: inline-block;}
+          .add:hover{color: darkred;cursor: pointer;}
+     #price_sun{width: 1080px;height: 40px;margin: auto;border-bottom: 1px solid gainsboro;}
+         #price_sun ul{float: right;margin-right: 25px;}
+         #price_sun ul li{float: left;margin-left: 15px;line-height: 40px;}
+            #price_sun .goods_num{color: blue;font-weight: bold;}
+            #price_sun .goods_sun_price{color: blue;font-weight: bold;}
+     #pay_price_box{width: 1080px;height: 40px;margin: auto;border-bottom: 1px solid gainsboro;}
+         #pay_price{float: right;margin-right: 25px;line-height: 40px;}
+         .should_pay_money{color:red;font-weight: bold;font-size: 19px;}
+     #balance{width: 1080px;height: 75px;margin: auto;border-bottom: 1px solid gainsboro;}
+         .balance_left{float: left;}
+            .balance_left li{float: left;margin-left: 15px; line-height: 75px;}
+              .empty_cart{cursor: pointer;}
+            #balance_right{width: 145px;height: 45px;background:red;color: white;font-weight: bold;text-align: center;line-height: 45px;float: right;margin-top: 15px;border-radius: 5px;}

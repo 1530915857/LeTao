@@ -1,0 +1,18 @@
+#head_warp{position:absolute;top: 0;float: left;}
+#right_warp{position:fixed;right: 0;top:0;z-index: 2;float: right;}
+#foot_warp{width: 100%;position:absolute;margin-top: 20px;}
+#main{width: 1200px;height:auto;margin: auto;margin-top:230px;overflow: hidden;}
+    #sportset{height: 38px;background: firebrick;position: relative;}
+      .sportset{position: absolute;font-weight: bold;color: white;margin-left: 15px;line-height: 38px;}
+      #ydxl{width: 1190px;height: auto;background:red;}
+      #ydxl .ydxl li{width:230px;height:335px;float: left;margin-left: 8px;margin-top: 15px;outline: 1px gainsboro solid;}
+      #ydxl .ydxl li img{margin-left: 15px;}
+      #ydxl .ydxl li{}
+      #ydxl .ydxl .tex_original{width:160px;height: 55px;position: absolute;text-align: center;font-size: 14px;color: gray;line-height: 55px;}
+         .original{text-decoration: line-through;color: gray;position: absolute;height: 55px;line-height: 55px;}
+      #ydxl .ydxl .tex_discount{width:160px;height: 55px;position: absolute;text-align: center;font-size: 14px;color: gray;line-height: 55px;}
+         .discount{color: crimson;font-weight: bold;position: absolute;height: 55px;line-height: 55px;}
+      .buy_now{width:100px;height: 25px;background: darkred;color: white;font-weight: bold;text-align: center;line-height: 25px;position: absolute;border-radius: 5px;margin-left: 65px;margin-top: 70px;}
+         
+    #active{margin-top: 15px;}
+    #remarks{height:40px;text-align: center;line-height: 40px;font-size: 14px;}

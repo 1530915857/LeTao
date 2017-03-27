@@ -1,0 +1,14 @@
+#register_rigth{width: 1190px;height: 30px;text-align: right;padding-right: 10px;margin: auto;}
+.a3{color: gray;}
+#registe{width: 1190px;height:30px;border-bottom: 1px solid gainsboro;margin: auto; margin-top:230px;position: relative;line-height: 30px;}
+#register_box{width: 600px;height: 200px;margin: auto;margin-top: 30px;}
+#register_box table{width: 620px;height: 125px;}
+   .td1{width: 140px;height:25px;text-align: right;}
+   .td2{width: 205px;}
+      .td2 input{width: 200px;height: 25px;}
+   .td3{width: 320px;color: gray;}
+   .td4{text-align: center;}
+      #acount_name{width: 16px;height: 16px;background: red;color: white;font-weight: bold;float: left;border-radius: 8px;text-align: center;line-height: 16px;margin-top: 5px;display: none;}
+      #pass{width: 16px;height: 16px;background: red;color: white;font-weight: bold;float: left;border-radius: 8px;text-align: center;line-height: 16px;margin-top: 5px;display: none;}
+      #arrifrm_pass{width: 16px;height: 16px;background: red;color: white;font-weight: bold;float: left;border-radius: 8px;text-align: center;line-height: 16px;margin-top: 5px;display: none;}
+      #regis{width: 100px;height: 30px;background: red;border-radius: 5px;color: white;text-align: center;line-height: 30px;margin-left: 120px;cursor: pointer;}

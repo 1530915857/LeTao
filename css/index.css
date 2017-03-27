@@ -1,0 +1,67 @@
+#head_warp{position:absolute;top: 0;float: left;}
+#right_warp{position:fixed;right: 0;top:0;z-index: 2;float: right;}
+#foot_warp{width: 100%;position:absolute;margin-top: 20px;}
+#main{width: 1190px;height:auto;margin: auto;margin-top: 225px;position: relative;}/*主体*/
+   #roll{width:1190px;height: 475px;margin-left: -15px;}/*轮播图*/
+      #roll .rollphoto .roll1{width: 1190px;height: 475px;display: none;}
+      #roll .rollphoto li.roll_select{display: block;}
+      #roll .rollphoto li img{width: 1190px;}
+   #rollnum{top: 400px;position: absolute;left: 500px;}/*下标*/
+   #rollnum .rollnumbox{width: 240px;height: 30px;margin: auto;border-radius:15px;}
+   #rollnum .rollnumbox .rollnumber{width:30px;height:30px;background: darkgray;float: left;margin-left: 15px;color:white;font-size: 20px;border-radius:15px ;text-align: center;}
+   #rollnum .rollnumbox .numselect{background: indianred;}
+   #notice{width: 190px;height: 470px;background:white;float: right;position: absolute;left:1000px;top:0;border: 1px solid gainsboro;overflow: hidden;}/*公告*/
+      #notice_title{width: 188px;height: 30px;border-bottom: 1px solid gainsboro;line-height: 30px;}
+      #substance{width: 190px;height: 168px;border-bottom: 1px solid gainsboro;}
+      #substance ul li{height:34px;margin-left: 15px;list-style:inside;line-height: 34px;font-size: 14px;}
+      #benefit{width: 190px;height: 69px;border-bottom: 1px solid gainsboro;}
+      #benefit ul{width: 150px;margin-left: 20px;}
+      #benefit ul .bg{float: left;margin-top: 10px;background:url(../img/small.png);}
+      #benefit ul .bg4{width: 35px;height:35px;background-position:-113px -87px;}
+      #benefit ul .bg5{width: 35px;height:35px;margin-left: 25px;background-position:-150px -87px;}
+      #benefit ul .bg6{width: 35px;height:35px;margin-left: 20px;background-position:-188px -87px;}
+      #benefit ul .discount_text{width:36px;float: left;font-size: 12px;text-align:center;}
+      #benefit ul .discount_text2{margin-left: 23px;}
+      #benefit ul .discount_text3{margin-left: 19px;}
+      /*----------------一楼样式----------------*/
+   #oneFloor{width: 1190px;height: 40px;margin: auto;margin-top: 15px;}
+     #oneFloor ul{width:302px;height:40px;border: 1px solid gainsboro;border-bottom: none;}
+     #oneFloor ul .oFtitle{width:100px;height:40px;text-align:center;line-height:40px;float: left;color:gray;}
+     #oneFloor ul .oFtitle2{border-left: 1px solid gainsboro;border-right:  1px solid gainsboro;}
+     #oneFloor ul .ofselect{color: #000000;}
+   #oneFloor_cont{width: 1190px;height: 385px;border: 1px solid gainsboro;}
+     #oneFloor_cont ul .onef_c1{display: none;}
+     #oneFloor_cont ul li.c1_select{display: block;}
+     #oneFloor_cont ul li img{margin-left: 25px;margin-top: 15px;outline: 1px solid gainsboro;}
+     /*----------------二楼样式----------------*/
+   #twoFloor{width: 1190px;height: 40px;margin: auto;margin-top: 15px;border-bottom: 1px orangered solid;} 
+     #twoF_left{width:auto;height: 40px;float: left;} 
+       #twoF_left ul li{font-weight: bold;color: gray;float: left;margin-left: 15px;line-height: 40px;font-size: 14px;}
+       #twoF_left .tF_title{font-size: 18px;color: #000000;}
+     #twoF_right{width:auto;height: 40px;float: right;background: gainsboro;}
+       #twoF_right ul{width:auto;height:41px;border: 1px solid gainsboro;border-bottom: none;}
+       #twoF_right ul .tFtitle{width: 100px;height: 38px;text-align: center;line-height: 40px;float: left;}
+       #twoF_right ul .tfselect{border: 1px solid orangered;border-bottom:1px solid white;}
+   #twoFloor_cont{width: 1190px;height: 560px;}
+     #twoFloor_cont .three_shose .three_width{width: 1190px;height: 550px;display: none;}
+     #twoFloor_cont .three_shose li.tfcselect{display: block;}
+       #twoFloor_cont .three_shose .three_width img{outline: 1px solid gainsboro;}
+       .three_width ul{width:1157px;margin: auto;}
+       .three_width ul .shose_width1{width: 205px;height: 267px;float: left;margin-top: 10px;}
+       .three_width ul .shose_width2{width: 476px;height: 267px;float: left;margin-top: 10px;}
+       .three_width ul .shose_width3{width: 238px;height: 267px;float: left;margin-top: 10px;}
+       .shose_width3:hover{outline: 1px red solid;z-index: 2;}
+       /*----------------热门推荐样式----------------*/
+   #hot_brand{width: 1190px;height: 40px;margin: auto;margin-top: 15px;border-bottom: 1px gainsboro solid;}
+      #hot_left{width: auto;height: 40px;float: left;}
+         #hot_left ul li{font-weight: bold;color: gray;float: left;margin-left: 15px;line-height: 40px;font-size: 14px;}
+         #hot_left ul .F_title{font-size: 18px;color: #000000;}
+      #hot_right{width: auto;height: 40px;float:right;line-height: 40px;font-size: 14px;font-weight: bold;}
+   #hot_cont{width: 1190px;height:320px;}
+   #hot_cont ul{width:1160px;margin: auto;}
+   #hot_cont ul .hot_photo{height:288px;margin-left:2px;margin-top: 15px;outline: 1px solid gainsboro;float: left;}
+   #hot_name{width:1190px;height:140px;}
+   #hot_name ul{width: 1152px;height: 140px;margin: auto;}
+   #hot_name li{width:128px;height:66px;margin-top: 10px;float: left;}
+   
+       

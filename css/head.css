@@ -1,0 +1,83 @@
+*{margin: 0;padding: 0;list-style: none;font-family: "微软雅黑";text-decoration: none;}
+img{border:0;}
+a{text-decoration: none;color:#000000;}
+.a1:hover{color: brown;}
+.a2{color:white;}
+.a2:hover{color:white;}
+#head{width: 1190px;height: 30px;margin: auto;font-size: 14px;}
+  #head_left{float:left;}
+    #head_left ul li{float: left;margin: 5px;cursor: pointer;}
+    .noheid{width:auto;height: 30px;}
+    #province{width: 350px;height: 240px;background:white;border: 1px gainsboro solid;position: absolute;top: 29px;display: none;z-index: 2;}
+    .send:hover{background:white;}
+    .send:hover #province{display: block;}
+      #province ul li{width: 60px;height: 25px;float: left;margin-left: 5px;cursor: pointer;text-align: center;line-height: 25px;}
+      #province ul li:hover{background: indianred;}
+    #QR_code{width: 147px;height: 147px;background:white;border: 1px gainsboro solid;position: absolute;top: 30px;z-index: 2;display: none;}
+    #QR_code img{padding: 5px;}
+    .erweim:hover{background:white;}
+    .erweim:hover #QR_code{display: block;}
+  #head_right{width:410px;height:30px;float: right;}
+    #head_right ul li{float:left;margin: 5px;}
+    #myLeTao0{width: 220px;height: 120px;background:white;border: 1px gainsboro solid;position: absolute;top: 30px;z-index: 2;display: none;}
+    .myLT:hover{background:white;}
+    .myLT:hover #myLeTao0{display:block;}
+      #myLeTao0 ul li{width: 100px;height: 20px;float: left;margin-left: 5px;}
+    #news{width: 90px;height: 95px;background:white;border: 1px gainsboro solid;position: absolute;top: 30px;z-index: 2;display: none;}
+    .new:hover{background:white;}
+    .new:hover #news{display: block;}
+#advertise{width:100%;height: 64px;cursor: pointer;position:relative;}
+#logo{width:1190px;height: 46px;margin: auto;margin-top: 15px;position: relative;}
+  #logo ul li{float: left;margin-left: 30px;}
+  #logo ul .li2{margin-left: 5px;font-size: 14px;line-height: 23px;}
+  #logo ul .bg{width: 35px;height:35px;background: url(../img/small.png);margin-top: 8px;}
+  #logo ul .bg1{width: 35px;height:35px;background-position:-5px -87px;margin-left:120px;}
+  #logo ul .bg2{width: 35px;height:35px;background-position:-41px -87px;margin-left:20px;}
+  #logo ul .bg3{width: 35px;height:35px;background-position:-77px -87px;margin-left:20px;}
+  #search{width:429px;height: 32px;border: 2px red solid;margin-top: 7px;}
+  #deter{width: 104px;height: 36px;background: red;float:right;text-align: center;line-height: 36px;color: white;font-weight: bolder;margin-top: 7px;cursor: pointer;position: absolute;left:709px;top: 0;}
+  #ready{position: absolute;top: 46px;cursor: pointer;}
+#nav{width:100%;height: 40px;background: blue;margin-top: 30px;position: absolute;}
+  #nav .dhl{width:1190px;height: 40px;margin: auto;text-align: center;line-height: 40px;font-weight: bold;color: white;}
+  #nav ul .titl{width: 150px;height: 40px; float: left;cursor: pointer;color: white;}
+  #nav ul .tlt:hover{background: dodgerblue;}
+  #nav ul li.select{width: 200px;height: 40px;background: red;}
+    #classify{width:200px;height: 475px;background: lightgray;position: absolute;top: 40px;font-size: 12px;color: black;z-index:1;display: none;font-weight: normal;}
+    #nav ul li.select:hover #classify{display: block;}
+      .shose{width:199px;height: 157px;position:relative;} 
+      .shose_1{width: 200px;height: 30px;line-height:30px;font-size: 16px;} 
+      .shose_2{width: 200px;height: 30px;}
+         .sh_right{float: right;margin-right: 15px;line-height:30px;}
+      .shose_3{width: 200px;height: 100px;}
+         .shose_3 .shose_sh3{width: 200px;height: 90px;}
+         .shose_3 .shose_sh3 .shose_sh3_1{width: 56px;height: 24px; line-height:24px; float:left;margin: 5px 5px;color: black;position: relative;}
+      .shose_warp1{width: 500px;height: 635px;background:white;position: absolute;left: 200px;top: 0px;display: none;}
+      .girl_shose:hover .shose_warp1{display: block;}
+      .boy_shose:hover .shose_warp2{display: block;}
+      .sport_shose:hover .shose_warp3{display: block;}
+      .brand{width: 450px;height: 35px;margin-top: 10px;margin: auto;border-bottom: 1px gray dashed;font-size: 16px;}
+      .brand_left{float: left;margin-left: 15px;}
+      .shose_warp1 .brand_name{clear: both;}
+      .shose_warp1 .brand_name li{width:120px;height:25px;float: left;margin-left: 5px;}
+      .design{width: 450px;height: 35px;padding-top: 20px;margin: auto;border-bottom: 1px gray dashed;clear: both;margin-top: 10px;font-size: 16px;}
+      .shose_warp1 .design_style{clear: both;}
+      .shose_warp1 .design_style li{width:120px;height:25px;float: left;}
+      .heel{width: 450px;height: 35px;padding-top: 20px;margin: auto;border-bottom: 1px gray dashed;clear: both;margin-top: 10px;font-size: 16px;}
+      .shose_warp1 .heel_style{clear: both;}
+      .shose_warp1 .heel_style li{width:120px;height:25px;float: left;}
+      .groom{width: 450px;height: 35px;padding-top: 20px;margin: auto;border-bottom: 1px gray dashed;clear: both;margin-top: 10px;font-size: 16px;}
+      .shose_warp1 .groom_style{clear: both;}
+      .shose_warp1 .groom_style li{width:120px;height:25px;float: left;}
+      .sh_name:hover{background:lightcoral;}
+      .shose_warp2{width: 500px;height: 435px;background:white;position: absolute;left: 200px;top: -157px;display: none;}
+      .shose_warp2 .brand_name{clear: both;}
+      .shose_warp2 .brand_name li{width:120px;height:25px;float: left;margin-left: 5px;}
+      .shose_warp2 .design_style{clear: both;}
+      .shose_warp2 .design_style li{width:120px;height:25px;float: left;}
+      .shose_warp2 .groom_style{clear: both;}
+      .shose_warp2 .groom_style li{width:120px;height:25px;float: left;}
+      .shose_warp3{width: 500px;height: 555px;background:white;position: absolute;left: 200px;top: -314px;display: none;}
+      .shose_warp3 .brand_name{clear: both;}
+      .shose_warp3 .brand_name li{width:120px;height:25px;float: left;margin-left: 5px;}
+      .shose_warp3 .design_style{clear: both;}
+      .shose_warp3 .design_style li{width:120px;height:25px;float: left;}

@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>乐淘结账中心-订单信息</title>
+		<link rel="icon" href="img/letaotb.jpg" type="image/x-icon" />
+		<link rel="stylesheet" type="text/css" href="css/ordersubmission.css"/>
+		<link rel="stylesheet" type="text/css" href="css/foot.css" />
+	</head>
+	<body>
+		<div id="main_warp">
+			<div id="orderlogo">
+			    <img src="img/head_create_order.gif"/>
+		    </div>
+		    <div id="logodown">
+		    	你选购的商品
+		    </div>
+		    <hr style="width: 860px;float: right;margin-top: -10px;"/>
+		    <div id="order">
+		    	<ul id="ordertitle">
+			    	<li class="order_detail order_phone">商品图片</li>
+			    	<li class="order_detail order_name">商品名称</li>
+			    	<li class="order_detail order_state">状态</li>
+			    	<li class="order_detail order_size">尺码</li>
+			    	<li class="order_detail order_num">数量</li>
+			    	<li class="order_detail order_price">专柜价</li>
+			    	<li class="order_detail order_sum">小计</li>
+		        </ul>
+		        <ul id="ordertitle1">
+			    	<li class="order1 order_detailpho"><img src="img/ydxl1_1.jpg"/></li>
+			    	<li class="order1 order_detailname">New Balance新百伦 女式 复古运动休闲跑步鞋</li>
+			    	<li class="order1 order_detailstate">在售</li>
+			    	<li class="order1 order_detailsize">43</li>
+			    	<li class="order1 order_detailnum">2</li>
+			    	<li class="order1 order_detailpri">￥999.00元</li>
+			    	<li class="order1 order_detailsum">1998.00元</li>
+		        </ul>
+		    </div>
+		    <p><a id="back_cart" href="shop_cart.html">返回购物车</a></p>
+		    <div id="buyerinfor" class="strange">
+		    	收货人信息
+		    </div>
+		    <hr style="width: 875px;float: right;margin-top: -10px;"/>
+		    <p><span id="clickentry">(已有乐淘账户请<a href="entry.html">点此登录</a>，登录后将自动读取已有地址记录)</span></p>
+		    <div id="inforwarp">
+		    	<div id="commeremail" class="infor_left">
+		    		常用邮箱<span class="orangered">*</span>
+		    	</div>
+		    	<div id="inputemail" class="infor_right">
+		    		<input type="email" class="linkman"/><span id="initemailinfor">
+		    			请输入正确的email
+		    		</span>
+		    	</div>
+		    	<div id="initemail">
+		    			(该邮箱将自动注册成为您的乐淘账号名，默认密码将发送到您的邮箱中。可使用此账户查询您的订单信息)
+		    	</div>
+		    	<div id="buyername" class="infor_left">
+		    		收件人姓名<span class="orangered">*</span>
+		    	</div>
+		    	<div id="inputname" class="infor_right">
+		    		<input type="text" class="linkman"/>
+		    		<input type="radio" name="sex" id="bmen" value="men" />先生
+		    		<input type="radio" name="sex" id="gwomen" value="women" />女士
+		    	</div>
+		    	<div id="buyeraddress" class="infor_left">
+		    		收件人地址<span class="orangered">*</span>
+		    	</div>
+		    	<div id="address" class="infor_right">
+		    		<select name="">
+		    			<option value="">--请选择--</option>
+		    		</select>
+		    		<select name="">
+		    			<option value="">--请选择--</option>
+		    		</select>
+		    		<select name="">
+		    			<option value="">--请选择--</option>
+		    		</select>
+		    		邮政编码：<input type="text" class="Contacts"/>
+		    	</div>
+		    	<div id="" class="infor_left">
+		    		
+		    	</div>
+		    	<div id="detailaddress" class="infor_right">
+		    		<input type="text" id="buyerdetailadd" value="" /><span class="orangered">
+		    			（请填写详细的路名或街道地址，确保准确送达）
+		    		</span>
+		    	</div>
+		    	<div id="buyerphone" class="infor_left">
+		    		收件人手机<span class="orangered">*</span>
+		    	</div>
+		    	<div id="phone_value" class="infor_right">
+		    		<input type="text" class="linkman" />
+		    		固话：<input type="text" class="Contacts"/>
+		    	</div>
+		    </div>
+		    <div class="strange">
+		    	支付方式
+		    </div>
+		    <hr style="width: 875px;float: right;margin-top: -10px;"/>
+		    <div id="paystyle">
+		    	<input type="radio" id="onlinepay" value="在线支付" checked="checked"/>在线支付
+			    <span id="payinit">
+			    	支持支付宝、财付通、拉卡拉及各大银行借记卡网银
+			    </span>
+		    </div>
+			    
+		    <div class="strange">
+		    	配送方式
+		    </div>
+		    <hr style="width: 880px;float: right;margin-top: -10px;"/>
+		    <div id="paystyle">
+		    	<input type="radio" id="onlinepay" value="普通快递" checked="checked"/>普通快递
+		    	<span id="payinit">
+		    		0  元    正常情况下2-5天送达，免费试穿。
+		    	</span>
+		    	<div id="sendtime">
+		    		送货时间：
+		    		<select>
+		    			<option value="">只工作日送货（双休日、假日不用送，适用于办公地址）</option>
+		    			<option value="">工作日、双休日及假日均可送货</option>
+		    			<option value="">只双休日、假日送货（工作日不用送，适用于家庭地址）</option>
+		    		</select>
+		    	</div>
+		    	<div id="sendinit">
+		    		<span class="orangered">提醒：</span>此信息将打印在快递面单上，作为快递公司送货的参考依据，个别地区配送可能会有所延误，请谅解！
+		    	</div>
+		    </div>
+		    <div class="strange">
+		    	请确认提交订单
+		    </div>
+		    <hr style="width: 845px;float: right;margin-top: -10px;"/>
+		    <div id="" class="comfirm">如您有优惠券，请点击
+		    	<span>
+		    		 <a id="couponnum" href="#">输入优惠券号码</a>
+		    	</span>
+		    	<span class="submitinit">
+		    		[优惠券无法使用？]
+		    	</span>
+		    </div>
+		    <div id="" class="comfirm">商品金额：
+		    	<span id="coupon">
+		    		
+		    	</span> 运费：
+		    	<span id="coupon">
+		    		
+		    	</span>优惠券抵扣：
+		    	<span id="coupon">
+		    		
+		    	</span>
+		    	<span class="submitinit">
+		    		[商品金额不对？]
+		    	</span>
+		    </div>
+		    <div id="" class="comfirm">应支付金额：
+		    	<span id="orange">
+		    		
+		    	</span>
+		    	<span class="submitinit">
+		    		[无法提交订单？]
+		    	</span>
+		    </div>
+		    <div id="submitorder">
+		    	确认，提交订单
+		    </div>
+		</div>
+		<div id="foot_warp">
+			
+		</div>
+	</body>
+	<script type="text/javascript" src="js/quote.js" ></script>
+</html>

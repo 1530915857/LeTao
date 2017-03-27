@@ -1,0 +1,17 @@
+#entry{width: 1190px;height:30px;border-bottom: 1px solid gainsboro;margin: auto; margin-top:230px;position: relative;line-height: 30px;}
+#entry_box{width: 1000px;height: 400px;margin: auto;position:relative;}
+  #entry_box_left{width: 600px;height: 270px;top:60px ;position: relative;border-right: 1px solid gainsboro;float: left;}
+    #entry_box_left_up{width: 550px;height: 50px;line-height: 50px;margin: auto;margin-top: 40px;}
+    #entry_box_left_center{width: 550px;height: 50px;line-height: 50px;margin: auto;}  
+    #entry_box_left_down{width: 500px;height: 50px;line-height: 50px;margin: auto;text-align: center;}
+    #username{width: 180px;height:25px;}
+    #pwd{width: 180px;height:25px;}
+    .lookpwd{left:100px ;position: absolute;}
+    #btn_entry{width: 100px;height: 30px;background: red;color: white;border-radius:5px;float:left;line-height: 30px;text-align: center;margin-left:120px;margin-top: 10px;}
+    .miss{width:16px;height:16px;background: red;border-radius: 8px;color:white;position:relative; font-weight: bold;margin-top: 20px;visibility: hidden;}
+  #entry_box_right{width: 398px;height: 280px;top:60px ;position: relative;float:right;}
+   .h1{position: relative;left: 50px;top: 50px;}
+   .p1{width:300px;position: relative;left: 50px;top: 60px;color: gray;}
+   #new_usern{position: relative;left: 200px;top: 70px;color: cornflowerblue;}
+   #usern_hint{color: gray;}
+   #pwd_hint{color: gray;}

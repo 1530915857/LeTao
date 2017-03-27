@@ -1,0 +1,57 @@
+#head_warp{position:absolute;top: 0;float: left;}
+#right_warp{position:fixed;right: 0;top:0;z-index: 2;float: right;}
+#foot_warp{width: 100%;position:absolute;margin-top: 20px;}
+#main{width: 1200px;height:auto;margin: auto;margin-top: 225px;position: relative;}/*主体*/
+    #advert_down{width: 1200px;height: 30px;border-bottom: 1px solid gainsboro;}
+       #advert_down_left{width: auto;height: 30px;line-height: 30px;float: left;}
+       #advert_down_right2{width: auto;height: 30px;line-height: 30px;float: right;}
+          #advert_down_right2 img{height: 40px;}
+          .a5{color: blue;}
+          .a5:hover{color: blue;}
+       #advert_down_right1{width: auto;height: 30px;line-height: 30px;float: right;}
+    #goods_main{width: 1200px;height:auto;position: relative;}
+       #goods_photo{width: 480px;height: 320px;outline: 1px solid gainsboro;position:relative;top: 10px;left: 10px;float: left;}
+       #shard{width: 200px;height: 200px;background: palevioletred;position: absolute;top: 0;left: 0;opacity: 0.5;display: none;}
+       #goods_detail{width: 395px;height:400px;float: left;position:relative; top: 10px;left: 25px;}
+          #goods_detail p{margin-top: 10px;}
+          #goods_detail .p1{text-indent: 2em;color: gray;}
+          .goods_size{width: 250px;position: relative;left: 110px;top: -20px;}
+          .goods_size li{width:35px;height:35px;float: left;margin-left: 5px;text-align: center;line-height: 35px;margin-bottom: 5px;cursor: pointer;background: url(../img/bg-1.gif);}
+          .black{color: #000000;}
+          .original{text-decoration: line-through;color: #000000;}
+          .discount{color:orangered;font-weight: bold;}
+          #blood{width: 250px;height: 30px;outline: 1px solid red;background: bisque;margin-left:50px ;margin-top: 80px;font-size: 12px;line-height: 30px;position: relative;text-align: center;}
+          #blood .red{color: red;}
+          .raduce{background: gainsboro;position:relative;text-align: center;line-height: 15px;font-weight: bold;padding: 3px;}
+          .raduce:hover{color: darkred;cursor: pointer;}
+          #nums{width: 35px;height: 18px;}
+          .add{background: gainsboro;position:relative;text-align: center;line-height: 15px;font-weight: bold;padding: 3px;}
+          .add:hover{color: darkred;cursor: pointer;}
+          .black{color: black;}
+          .sh_size{display: none;}
+          #add_buy{width: 125px;height: 35px;background: darkred;border-radius: 3px;color: white;line-height: 35px;text-align: center;float: left;margin-left: 35px;margin-top: 15px;cursor: pointer;}
+          #add_collect{width: 105px;height: 35px;background:dodgerblue;border-radius: 3px;color: white;line-height: 35px;text-align: center;float: left;margin-left: 35px;margin-top: 15px;cursor: pointer;}
+          #reading_glass{width: 395px;height: 320px;background:white;outline: 2px gainsboro solid;position: absolute;top: 10px;left:505px;z-index: 2;overflow: hidden;display: none;}
+            #bigimg{position: absolute;}
+       #goods_small_photo{width: 480px;height: 35px;margin-top:340px;margin-left: 5px;clear: both;position: absolute;}
+       #goods_small_photo ul li{width:54px;height:35px;float: left;margin-left: 6px;outline: 1px solid gainsboro;}
+       #goods_small_photo ul li img{position: relative;top: 4px;left: 7px;}
+       #share{position: absolute;left: 10px;top: 380px;}
+       .share{width:150px;position: absolute;left: 110px;top: 5px;}
+       .share .li{width: 16px;height: 16px;background: gold;float: left;margin-left: 5px;background: url(../img/ico_share.gif);}
+       .share .share1{background-position: 0 0;}
+       .share .share2{background-position: 0 -19px;}
+       .share .share3{background-position: 0 -38px;}
+       .share .share4{background-position: 0 -57px;}
+       .share .share5{background-position: 0 -76px;}
+       .share .share6{background-position: 0 -95px;}
+       .share .share7{background-position: 0 -114px;}
+    #Description{width: 990px;height: 31px;border-bottom: 2px solid indianred;clear: both;margin-top: 20px;float: left;}
+      .Description li{float: left;width: 100px;height: 29px;margin-left: 10px;border: 1px solid gainsboro;border-bottom:none;text-align: center;line-height: 29px;border-radius: 5px;}
+      .Description li:hover{color: orangered;cursor: pointer;}
+      .Description li.desc_select{background: darkred;color: white;font-weight: bold;}
+      .Description li.desc_select:hover{background: darkred;color: white;font-weight: bold;}
+    #desc_tab{width: 990px;height: auto;}
+      #desc_tab ul li img{position: relative;left: 125px;}
+       
+       

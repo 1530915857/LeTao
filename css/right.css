@@ -1,0 +1,29 @@
+.a1{font-size: 14px;}
+a:hover{color: brown;}
+#on{height: 1150px;width: 520px;background: red;float:left;}
+#right{width: 35px;height:100%;background:#252925;word-break:break-all;position: fixed;right: 0px;float:right;}
+#right ul{margin-top: 100px;position: relative;}
+#right ul .MyLT{width:35px;height:35px;color: white;font-size: 20px;line-height: 35px;text-align: center;margin-top: 40px;cursor: pointer;}
+#right ul .MyLTE{background:#252925;color:orangered;border-top: 2px solid white;border-bottom: 2px solid white;padding-bottom: 15px;padding-top:15px ;}
+#right ul .MyLT:hover{background: orangered;}
+#right ul .MyLTE:hover{background:#252925;}
+#myLeTao{width: 220px;height: 120px;background:white;border: 1px gainsboro solid;position:absolute;top: 0px;left:-222px;z-index: 2; display: none;}
+.MyLT1:hover #myLeTao{display: block;}
+#myLeTao_left{width: 100px;height: 102px;border-right: 1px gainsboro solid;position:relative;top: 10px;left:10px;float: left;}
+#myLeTao_left ul{width: 100px;height: 100px;position:relative;top: -110px;}
+#myLeTao_left ul .clause{width: 100px;height: 25px;}
+#myLeTao_right{width: 100px;height: 102px;position:relative;top: 10px;float: left;}
+#myLeTao_right ul{width: 100px;height: 100px;position:relative;top: -110px;left: 10px;}
+#myLeTao_right ul .clause{width: 100px;height: 25px;}
+#Myorder{width:100px;height: 35px;background: orangered;position: relative;top: -35px;left:-100px;font-size: 15px;display: none;}
+.MyLT2:hover #Myorder{display: block;}
+#collect{width:100px;height: 35px;background: orangered;position: relative;top: -35px;left:-100px;font-size: 15px;display: none;}
+.MyLT3:hover #collect{display: block;}
+#erweima{width: 139px;height: 139px;position: relative;top: -35px;left:-140px;border: 1px gainsboro solid;border-right:none;text-align: center;display: none;}
+  #erweima img{padding-top: 2px;}
+.MyLT4:hover #erweima{display: block;}  
+#trainingLT{width:100px;height: 35px;background: orangered;position: relative;top: -35px;left: -100px; font-size:15px; display: none;}
+.MyLT5:hover #trainingLT{display: block;}
+#backTop{width:100px;height: 35px;background: orangered;position: relative;top: -35px;left:-100px;font-size: 15px;display: none;}
+.MyLT6{display: none;}
+.MyLT6:hover #backTop{display: block;}
